@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Partisan Predictor</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Predict your own partisanship">
+		<meta name="author" content="Mike White">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<form action="">
+			Race: <select name="race">
+				<option name="white" selected>White</option>
+				<option name="black">Black</option>
+				<option name="hisp">Hispanic</option>
+				<option name="asian">Asian</option>
+			</select><br>
+			Birth Year: <input name="year" type="number"><br>
+			Sex (sorry no other option):
+			<input type="radio" name="sex" value="male"> Male
+			<input type="radio" name="sex" value="female" checked> Female<br>
+			Do you have a college degree?: <input type="checkbox" name="degree" value="true" checked><br>
+			<input type="submit" value="Submit">
+		</form>
+		<p id="message"></p>
+		<script src="assets/scripts/dist/predictor.js"></script>
+	</body>
+</html>

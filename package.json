@@ -1,0 +1,16 @@
+{
+  "name": "partisanpredictor",
+  "version": "1.0.0",
+  "description": "Predicts your party based on your demographic",
+  "author": "Mike White",
+  "license": "ISC",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.7.4"
+  }
+}
